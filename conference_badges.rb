@@ -19,4 +19,12 @@ def assign_rooms(array)
     end
   end
 
-def printer
+def printer(names)
+  # binding.pry
+  batch_badge_creator(names).each do |string|
+  puts string
+end
+  assign_rooms(names).each do |string|
+  puts string
+  end
+end
