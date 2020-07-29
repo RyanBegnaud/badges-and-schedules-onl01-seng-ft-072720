@@ -22,3 +22,5 @@ def assign_rooms(array, counter)
   end
   return room_array
 end
+
+assign_rooms
