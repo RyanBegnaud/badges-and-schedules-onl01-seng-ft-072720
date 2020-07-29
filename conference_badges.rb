@@ -15,10 +15,11 @@ end
 room = 1
 def assign_rooms(array, room)
   room_array = []
-  array.each_with_index do (name, room)
+  array.each_with_index(name, room)
+  {
     room_array.push("Hello, #{name}! You'll be assigned to room #{room}!")
     room += 1
-  end
+  }
   return room_array
 end
 
