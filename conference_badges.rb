@@ -17,6 +17,7 @@ def assign_rooms(array, counter)
   room_array = []
   array.each do |name|
     room_array.push("Hello, #{name}! You'll be assigned to room #{counter}!")
+    binding.pry
     counter += 1
   end
   return room_array
